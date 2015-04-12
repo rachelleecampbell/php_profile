@@ -19,13 +19,21 @@
       <p><?php echo $location?></p>
       <hr />
       <p>Welcome to PHP Basics!</p>
-      <hr />
+      <hr/>
       <ul class="social">
         <li><a href=""><span class="icon twitter"></span></a></li>
       </ul>
     </section>
     <section class="main">
-      <p>Let's Get Started!</p>
+      <pre><?php
+          $greeting = "Hello, Friends!\n";
+          $secondary_greeting = "How are you today?";
+          echo $greeting;
+          echo $secondary_greeting;
+        ?>
+
+      </pre>
+
     </section>
   </body>
 </html>
