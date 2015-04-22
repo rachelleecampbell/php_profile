@@ -34,7 +34,19 @@
     <section class="main">
       <pre><?php
 
-      echo JOB_TITLE
+      $array_example = array();
+
+      $eye_colors = array('blue', 'green', 'brown');
+
+      print_r($eye_colors);
+
+      $eye_colors[1] = 'hazel';
+
+      echo $eye_colors[1];
+
+
+
+
 
       ?>
 
