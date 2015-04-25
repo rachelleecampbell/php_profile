@@ -34,16 +34,18 @@
     <section class="main">
       <pre><?php
 
-      $array_example = array();
 
-      $eye_colors = array('blue', 'green', 'brown');
+      $eye_colors = array(
+        'chris' => 'blue', 
+        'tom' => 'green', 
+        'rachel' => 'brown'
+        );
 
-      print_r($eye_colors);
 
-      $eye_colors[1] = 'hazel';
+  
+        $eye_colors['chuck'] = 'blue';
 
-      echo $eye_colors[1];
-
+        print_r($eye_colors);
 
 
 
